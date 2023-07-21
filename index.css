@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 250vh;
+    width: 100vw;
+}
+.nav{
+    position: relative;
+    width: 100vw;
+    top: 0px;
+    height: 20vh;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    background-color: yellow;
+    width: 8%;
+    margin: 10px 20px;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.logo img{
+    height: 120%;
+    width: 120%;
+    align-self: center;
+    justify-content: center;
+    margin-left: -10%;
+    margin-top: -14%;
+}
+.labels{
+    display: flex;
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    margin: 45px 40px;
+    font-family: 'Karla', sans-serif;
+}
+
+.labels li{
+    margin: 10px 25px;
+    color: white;
+}
+
+.banner{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+}
+.bg{
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+.bg img{
+    height: 100%;
+    width: 110vw;
+    margin-top:-25vh;
+    margin-left: -5vw ;
+    opacity: 0.9;
+}
+.txt{
+    font-size: 130px;
+    position: absolute;
+    top: 40vh;
+    left: 60vw;
+    width: 30vw;
+    height: inherit;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+.image{
+    position: absolute;
+    width: 15vw;
+    height: 20vh;
+    
+}
